@@ -1,0 +1,71 @@
+/* Default style for page */
+
+body {
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+
+    background-color: white;
+    color: #080591;
+}
+
+/*
+    Fonts - Montserrat:
+    300 - Light
+    400 - Regular
+    500 - Medium
+    600 - Semi-Bold
+    700 - Bold
+    800 - Extra-Bold
+    900 - Black
+*/
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/* Using Style UI8-71 */
+
+.header {
+    background-color: azure;
+}
+
+.header__inner {
+    margin: 0;
+    padding: 14px 0;
+}
+
+.hat {
+    font-weight: 700;
+    color: #080591;
+    text-align: center;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+    background-color: none;
+}
+
+.main__inner {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.frame--google {
+    text-align: center;
+}
+
+.iframe {
+    width: 100%;
+    height: 600px;
+}
